@@ -1,6 +1,216 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="52126b75-9c56-4048-b64e-0d606c307db0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/Panda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/ArrowLeft.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/ArrowRight.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/Chat.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/Copy.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/Door.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/Error.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/Eye.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/GoogleIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/LockIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/MailIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/MessageIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/Minus.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/Pencil.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/PencilStudy.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/Person.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/PersonStudy.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/Phone.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/PlusIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/QuestionMarkIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/SearchIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/Star.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/StudentIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/TrashCan.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/VideoCamera.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/Warning.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Icons/WhiteBoard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/InformationCard/InformationCard.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/InformationCard/InformationCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Input/Input.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Layout/CustomBackgroundLayout.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Layout/CustomBackgroundLayout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Layout/Layout.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Layout/Layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/LessonItem/LessonItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/LessonItem/LessonItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/MessageUserProfile/MessageUserProfile.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/MessageUserProfile/MessageUserProfile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/StarsRating/StarsRating.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/StarsRating/StarsRating.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/StudentCard/StudentCard.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/StudentCard/StudentCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/TeacherCard/TeacherCard.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/TeacherCard/TeacherCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/navBar/navBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/navBar/navbar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/consts/subjects.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/firebaseConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/images/frontImage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/LandingPage/LandingPage.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/LandingPage/LandingPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/LandingPage/VeriticalStepper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/LoginPage/LoginPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/LoginPage/loginPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/MessagesPage/MessagesPage.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/MessagesPage/MessagesPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/OurTeachersPage/OurTeachersPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/ProfilePage/ProfilePage.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/ProfilePage/ProfilePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/RoomPage/RoomPage.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/RoomPage/RoomPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/RoomsPage/RoomsPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/RoomsPage/RoomsPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/StudentsPage/StudentsPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/StudentsPage/StudentsPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/TeachersPage/TeachersPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/redux/hooks.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/redux/loginSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/redux/profileSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/redux/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/LoginStatusChecker.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/addToProfilesForMessages.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/addUserToUsersStudents.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/calculateRating.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/converter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/errorMessages.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/fetchUserProfileData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/getTeachers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/getUserDisplayNameWithUid.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/getUsersMessages.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/isMobile.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/searchForUserWithEmail.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/serachForUserWithId.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/sortMessByTimeStamp.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/useWindowSize.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/writeUserToDatabase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/webRTCConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest/student/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest/student/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest/student/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest/student/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest/student/service/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/about/AboutView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/about/AboutView.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="2Tvbzz0ifTIJGTULInZd2nChDQp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/aleks/todo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "ea5cb8ff0abf6b4ca0080069daaeada0",
+    "ts.external.directory.path": "C:\\Users\\aleks\\todo\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks\todo" />
+      <recent name="C:\Users\aleks\todo\src\main\java\rest\student" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="todo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.application.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52126b75-9c56-4048-b64e-0d606c307db0" name="Changes" comment="" />
+      <created>1691926770638</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691926770638</updated>
+      <workItem from="1691927166705" duration="1883000" />
+      <workItem from="1691929521172" duration="1867000" />
+      <workItem from="1691942394038" duration="1157000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
